@@ -386,14 +386,26 @@ function App() {
                 allowfullscreen
                 sandbox=""
               /> */}
-              <iframe
+              {/* <iframe
+                sandbox
                 src="https://www.youtube.com/embed/JBEY9hDkjRw"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                sandbox="allow-same-origin"
+
               />
+              {/* eslint-disable-next-line react/iframe-missing-sandbox */} 
+              <iframe
+      sandbox
+      width="853"
+      height="480"
+      src='https://www.youtube.com/embed/rokGy0huYEA'
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
             </div>
           </section>
           <section css={containerMarginStyles}>
