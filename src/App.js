@@ -23,13 +23,13 @@ const navMainStyles = css`
   }
 `;
 
-// i think i can generalize this
+/* // i think i can generalize this
 const navOuterWrapperStyles = css`
   margin: 0 auto;
   padding-right: 40px;
   padding-left: 40px;
   max-width: 1330px;
-`;
+`; */
 
 const containerMarginStyles = css`
   margin: 0 auto;
@@ -378,24 +378,6 @@ function App() {
           </section>
           <section css={videoSectionStyles}>
             <div className="videoWrapper" css={videoWrapperStyles}>
-              {/* <iframe
-                src="https://www.youtube.com/embed/JBEY9hDkjRw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                sandbox=""
-              /> */}
-              {/* <iframe
-                sandbox
-                src="https://www.youtube.com/embed/JBEY9hDkjRw"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-
-              />
-              {/* eslint-disable-next-line react/iframe-missing-sandbox */} 
               <iframe
       sandbox
       width="853"
